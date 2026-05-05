@@ -49,8 +49,8 @@ A machine learning-based web application that detects phishing websites using UR
 - Risk Level: HIGH ⚠️
 
 ### Detection Result
-![Result](screenshots/PD1.png)
-![Result](screenshots/PD2.png)
+![Result](PD1.png)
+![Result](PD2.png)
 
 ---
 
