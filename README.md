@@ -1,69 +1,65 @@
-# 🔐 Phishing Website Detector (Real-Time)
+# Phishing Website Detector (Live Detection System)
 
-A machine learning-based web application that detects phishing websites using URL analysis and real-time prediction.
+A machine learning-based web application that detects phishing websites using URL analysis and instant prediction through a live interactive web interface.
 
 ---
 
-## 🚀 Features
+## Features
 
-- Real-time phishing detection (live typing)
+- Live URL detection (instant response while typing)
 - Machine Learning model (Random Forest)
 - URL feature extraction (6 features)
 - Risk scoring system (0–100)
-- Trusted domain intelligence
-- Domain-type awareness (.gov, .edu, .de)
-- Interactive UI (Flask + HTML)
+- Trusted domain detection
+- Interactive UI (Flask + JavaScript)
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-1. User enters a URL
-2. Features are extracted:
+1. User enters a URL in the web interface
+2. System extracts features:
    - URL length
    - Special characters
    - IP address presence
    - Number of dots
    - HTTPS usage
    - Suspicious keywords
-3. ML model predicts:
+3. Machine Learning model predicts:
    - Phishing or Legitimate
 4. Risk score is calculated
-5. Trusted domains override false positives
-6. Results shown in real-time
+5. Results are displayed instantly to the user
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Flask
 - Scikit-learn
-- HTML/CSS/JavaScript
+- HTML, CSS, JavaScript
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 - Result: PHISHING
-- Confidence: 87%
+- Confidence: 85%
 - Risk Score: 72/100
 - Risk Level: HIGH ⚠️
 
----
-
-## 📸 Screenshots
-
-(Add images in screenshots folder)
+### Detection Result
+![Result](screenshots/PD1.png)
+![Result](screenshots/PD2.png)
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-This project is a prototype and demonstrates phishing detection concepts using machine learning. It is not a production-level security system.
+This project is a prototype built for educational purposes and demonstrates phishing detection using machine learning. It is not a production-level security system.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Your Name
