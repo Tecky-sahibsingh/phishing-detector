@@ -58,8 +58,3 @@ A machine learning-based web application that detects phishing websites using UR
 
 This project is a prototype built for educational purposes and demonstrates phishing detection using machine learning. It is not a production-level security system.
 
----
-
-## Author
-
-Your Name
